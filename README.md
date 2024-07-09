@@ -3,12 +3,12 @@
 An application for playing Tic-Tac-Toe against a computer using the Minimax algorithm. The player controls "X" and the computer controls "O". The player goes first.
 
 ## UI.java  
-Containes user interface (graphics) of board for tic-tac-toe, checks for winner and event handlers.  
+Contains the user interface (graphics) for the board in tic-tac-toe, as well as the code for checking for a winner and handling events.  
 
 ## Minimax.java  
-Contains Minimax Algorithm itself.  
+Contains the Minimax Algorithm itself.  
 
-Here some screeshots of the app.
+Here are some screenshots of the app.
 
 ### Start
 ![Снимок экрана 2024-07-09 113401](https://github.com/minLeya/TicTacToeAppMinimax/assets/108834527/db91ca57-3abf-470d-97d6-2e1d50478916)
