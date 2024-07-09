@@ -78,10 +78,17 @@ class UI {
 
     private void winMessage(String player) {
         if (player != null) {
-            JOptionPane.showMessageDialog(null, player + " won!");
+            JOptionPane pane = new JOptionPane(player + " won!");
+            Dialog d = pane.createDialog(null);
+            d.setLocation(12, 140);
+            d.setVisible(true);
+
         }
         else if(isBoardFull()){
-            JOptionPane.showMessageDialog(null, "Appears to be a tie!");
+            JOptionPane pane = new JOptionPane("Appears to be a tie!");
+            Dialog d = pane.createDialog(null);
+            d.setLocation(12, 140);
+            d.setVisible(true);
         }
     }
 
